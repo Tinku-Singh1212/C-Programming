@@ -6,7 +6,7 @@ struct Node{
 };
 void listtraversal(struct Node *ptr)
 {
-	while(ptr !=NULL)
+	while(ptr!=NULL)
 	{
     printf("Element in list : %d\n",ptr->data);
 	ptr=ptr->next;
